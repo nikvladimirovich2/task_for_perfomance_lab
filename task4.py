@@ -1,4 +1,4 @@
-with open('C:\\Users\\user\\Desktop\\file3.txt') as file:
+with open('C:\\Users\\user\\Desktop\\файл3.txt') as file:
     nums = list()
     for line in file.readlines(): 
         nums.extend(line.rstrip().split(' '))

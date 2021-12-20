@@ -1,9 +1,9 @@
-with open('C:\\Users\\user\\Desktop\\file1.txt') as file:
+with open('C:\\Users\\user\\Desktop\\файл1.txt') as file:
     circle_coordinates = list()
     for line in file.readlines(): 
         circle_coordinates.extend(line.rstrip().split(' '))
 
-with open('C:\\Users\\user\\Desktop\\file2.txt') as file:
+with open('C:\\Users\\user\\Desktop\\файл2.txt') as file:
     point_coordinates = list()
     for line in file.readlines(): 
         point_coordinates.extend(line.rstrip().split(' '))
